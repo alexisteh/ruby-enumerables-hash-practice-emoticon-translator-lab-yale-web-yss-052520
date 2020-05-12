@@ -28,7 +28,10 @@ end
 get_english_meaning("./lib/emoticons.yml", "(Ｔ▽Ｔ)")
 
 def get_japanese_emoticon(filepath,west) 
-  hash.find do |key, val| 
-    key[:japanese] == west 
+  p = hash.find do |key, val| 
+    val[:japanese] == west 
+  end 
+  puts p[0]
+  p[0] 
 end 
 
