@@ -14,9 +14,6 @@ end
 
 load_library("lib/emoticons.yml")
 
-def get_japanese_emoticon(filepath,emo) 
-  1 
-end
 
 def get_english_meaning(filepath, emo)
   hash = load_library(filepath) 
@@ -29,3 +26,8 @@ def get_english_meaning(filepath, emo)
 end
 
 get_english_meaning("./lib/emoticons.yml", "(Ｔ▽Ｔ)")
+
+def get_japanese_emoticon(filepath,emo) 
+  1 
+end
+
