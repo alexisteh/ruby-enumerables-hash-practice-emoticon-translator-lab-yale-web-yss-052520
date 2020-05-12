@@ -27,7 +27,7 @@ end
 
 get_english_meaning("./lib/emoticons.yml", "(Ｔ▽Ｔ)")
 
-def get_japanese_emoticon(filepath,emo) 
-  1 
-end
+def get_japanese_emoticon(filepath,west) 
+  hash.find 
+end 
 
