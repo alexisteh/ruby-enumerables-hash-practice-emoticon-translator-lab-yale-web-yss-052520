@@ -12,7 +12,7 @@ def load_library(filepath)
   new 
 end
 
-load_library("lib/emoticons.yml")
+#load_library("lib/emoticons.yml")
 
 
 def get_english_meaning(filepath, emo)
@@ -25,7 +25,7 @@ def get_english_meaning(filepath, emo)
   return "Sorry, that emoticon was not found"
 end
 
-get_english_meaning("./lib/emoticons.yml", "(Ｔ▽Ｔ)")
+#get_english_meaning("./lib/emoticons.yml", "(Ｔ▽Ｔ)")
 
 def get_japanese_emoticon(filepath,west) 
   hash = load_library(filepath)
