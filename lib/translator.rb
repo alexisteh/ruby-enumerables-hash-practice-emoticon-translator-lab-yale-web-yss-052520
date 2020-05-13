@@ -32,7 +32,7 @@ def get_japanese_emoticon(filepath,west)
   set = hash.find do |key, val| 
     val[:english] == west 
   end 
-  puts set[1][:japanese]  
+  return set[1][:japanese]
 end 
 
 get_japanese_emoticon("./lib/emoticons.yml", ":)")
