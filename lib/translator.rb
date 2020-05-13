@@ -33,7 +33,7 @@ def get_japanese_emoticon(filepath,west)
     val[:english] == west 
   end 
   if set == nil 
-    return "Sory!"
+    return "Sorry, that emoticon was not found"
   end 
   return set[1][:japanese]
 end 
