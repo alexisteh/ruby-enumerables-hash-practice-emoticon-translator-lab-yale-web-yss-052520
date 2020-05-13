@@ -8,7 +8,7 @@ def load_library(filepath)
   nh.each do |key,val| 
     new[key] = { :english => val[0], :japanese => val[1] }
   end 
-  puts new
+  # puts new
   new 
 end
 
